@@ -8,6 +8,9 @@ RuleSet: CitizenEntryVersion(instance, version)
 * entry[=].resource = {instance}-{version}
 
 
+
+// Reconsider:
+
 RuleSet: ConditionEntry(instance)
 * entry[+].fullUrl = "Condition/{instance}"
 * entry[=].resource = {instance}
