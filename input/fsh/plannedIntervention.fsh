@@ -15,7 +15,6 @@ Description: "Planned interventions for nursing and home care in Danish Municipa
 * title ..0
 * description ..0
 * subject only Reference(klgateway-care-citizen)
-* subject ^type.aggregation = #bundled
 * encounter ..0
 * period 1..1
 * period.start 1..1
@@ -50,7 +49,6 @@ Description: "Planned interventions for nursing and home care in Danish Municipa
 * activity.detail.reasonReference only Reference(KLGatewayCareCondition)
 * activity.detail.reasonReference MS
 * activity.detail.reasonReference ^definition = "Reason for this intervention. Must contain all conditions known to be addressed by this intervention"
-* activity.detail.reasonReference ^type.aggregation = #bundled
 * activity.detail.goal ..0
 * activity.detail.status ^definition = "Shall be either unknown, entered-in-error, or the activity status of the intervention at the time of reporting"
 * activity.detail.statusReason ..0

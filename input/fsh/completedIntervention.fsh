@@ -22,7 +22,6 @@ Description: "Documentation for completed interventions (activities related to o
 * code.coding[level3].display 1..1
 * code.coding[level3] ^definition = "Shall contain locally defined code if it is a locally defined level 3 intervention"
 * subject only Reference(KLGatewayCareCitizen)
-* subject ^type.aggregation = #bundled
 * encounter ..0
 * performed[x] only dateTime
 * performedDateTime 1..

@@ -38,7 +38,6 @@ Description: "Detailed information about conditions."
 * code.coding 1..1
 * bodySite ..0
 * subject only Reference(klgateway-care-citizen)
-* subject ^type.aggregation = #bundled
 * abatement[x] ..0
 * encounter ..0
 * onset[x] ..0

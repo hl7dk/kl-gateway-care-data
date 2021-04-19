@@ -2,9 +2,9 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.dk.kl.gateway.care.data
-canonical: http://care-data.gateway.kl.dk/1.0
-name: KLGatewayCareData
+id: hl7.fhir.dk.kl.gateway.national-care-data
+canonical: http://national-care-data.gateway.kl.dk/1.0
+name: KLGatewayNationalCareData
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
