@@ -3,8 +3,8 @@
 # │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.dk.kl.gateway.national-care-data
-canonical: http://national-care-data.gateway.kl.dk/1.0
-name: KLGatewayNationalCareData
+canonical: http://municipality-care-data.gateway.kl.dk/1.0
+name: KLGatewayMunicipalityCareData
 status: draft
 version: 0.1.0
 fhirVersion: 4.0.1
