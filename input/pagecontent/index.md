@@ -1,5 +1,3 @@
-# KLGatewayCareData
-
 This implementation guide describes the content of the reporting of care data from KL Gateway to other authorities at a national level, i.e. KOMBIT FLIS and Sundhedsdatastyrelsen (SDS). This implementation guide defines the profiles of the resources that one can receive.
 
 The profiles are based on the reporting from the municipalities defined by the KL Gateway implementation guide found here: [KL Gateway Implementation Guide](http://build.fhir.org/ig/hl7dk/kl-gateway), which describes the details of the content futher.
