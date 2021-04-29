@@ -8,4 +8,4 @@ The format of data returned from the history RESTful API is described in the sec
 
 The history RESTfull API supports paging as described here: [RESTful API - paging](https://www.hl7.org/fhir/http.html#paging). Clients may request a specific number of results per page and the gateway returns no more than this number of results. KL Gateway determines a maximum of results that may be returned on each page.
 
-In case the data is pushed to the recipient, the frequency and maximal number of results per page are agreed between the KL Gateway organization and the recipient.  
+In case the data is pushed to the recipient, the frequency, grouping, and maximal number of results per page are agreed between the KL Gateway organization and the recipient.
