@@ -21,6 +21,7 @@ Description: "Describes the intended or expected functional level for a conditio
 * description.coding 1..1
 * description.coding = $KLTerminology#e182c5dc-9f91-474a-92e8-f62be3d498f4
 * subject only Reference(klgateway-care-citizen)
+* subject ^type.aggregation = #bundled
 * start[x] 1..1
 * start[x] only date
 * target 1..1
@@ -39,6 +40,7 @@ Description: "Describes the intended or expected functional level for a conditio
 * expressedBy ..0
 * addresses 1..1
 * addresses only Reference(KLGatewayCareCondition)
+* addresses ^type.aggregation = #bundled
 * note ..0
 * outcomeCode ..0
 * outcomeReference ..0

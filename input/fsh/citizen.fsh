@@ -3,8 +3,6 @@ Parent: Patient
 Id: klgateway-care-citizen
 Title: "CareCitizen"
 Description: "Administrative information about a citizen receiving care or care related services."
-* meta.versionId 1..
-* meta.lastUpdated 1..
 * identifier 1..1
 * identifier only dk-core-cpr-identifier
 * active ..0
@@ -31,8 +29,6 @@ Description: "Administrative information about a citizen receiving care or care 
 Instance: TestPerson
 InstanceOf: KLGatewayCareCitizen
 Description: "Test person used in the examples of the implementation guide"
-* meta.versionId = "1"
-* meta.lastUpdated = 2020-08-14T00:00:00Z
 * identifier.use = #official
 * identifier.value = "0101010101"
 * identifier.system = "urn:oid:1.2.208.176.1.2"

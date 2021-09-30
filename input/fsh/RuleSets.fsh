@@ -1,18 +1,9 @@
 RuleSet: CitizenEntry(instance)
-* entry[+].fullUrl = "http://care-data.gateway.kl.dk/1.0/Patient/{instance}"
+* entry[+].fullUrl = "Patient/{instance}"
 * entry[=].resource = {instance}
 
-// Assumes fake id <guid>-<version>
-RuleSet: CitizenEntryVersion(instance, version)
-* entry[+].fullUrl = "http://care-data.gateway.kl.dk/1.0/Patient/{instance}"
-* entry[=].resource = {instance}-{version}
-
-
-
-// Reconsider:
-
 RuleSet: ConditionEntry(instance)
-* entry[+].fullUrl = "http://care-data.gateway.kl.dk/1.0/Condition/{instance}"
+* entry[+].fullUrl = "Condition/{instance}"
 * entry[=].resource = {instance}
 
 // Assumes fake id <guid>-<version>

@@ -25,6 +25,7 @@ Description: "Encounter for following up on conditions, care plans, or observati
 * priority ..0
 * subject 1..1
 * subject only Reference(klgateway-care-citizen)
+* subject ^type.aggregation = #bundled
 * episodeOfCare ..0
 * basedOn ..0
 * participant ..0

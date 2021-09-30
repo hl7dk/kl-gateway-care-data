@@ -15,8 +15,10 @@ Description: "Measurements and simple assertions made about a patient by the pat
 * code.coding.userSelected ..0
 * code.text ..0
 * subject only Reference(klgateway-care-citizen)
+* subject ^type.aggregation = #bundled
 * focus 1..1
 * focus only Reference(KLGatewayCareCondition or KLGatewayCareMatterOfInterestObservation)
+* focus ^type.aggregation = #bundled
 * encounter ..0
 * effective[x] 1..1
 * effective[x] only dateTime

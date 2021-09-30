@@ -10,6 +10,7 @@ Description: "Matter or area of interest in relation to the care of the citizen.
 * code.coding 1..1
 * code.coding from FSIIICareMatterOfInterests
 * subject only Reference(klgateway-care-citizen)
+* subject ^type.aggregation = #bundled
 * focus ..0
 * encounter ..0
 * effective[x] 1..1

@@ -15,6 +15,7 @@ Description: "Planned interventions for nursing and home care in Danish Municipa
 * title ..0
 * description ..0
 * subject only Reference(klgateway-care-citizen)
+* subject ^type.aggregation = #bundled
 * encounter ..0
 * period 1..1
 * period.start 1..1
@@ -49,6 +50,7 @@ Description: "Planned interventions for nursing and home care in Danish Municipa
 * activity.detail.reasonReference only Reference(KLGatewayCareCondition)
 * activity.detail.reasonReference MS
 * activity.detail.reasonReference ^definition = "Reason for this intervention. Must contain all conditions known to be addressed by this intervention"
+* activity.detail.reasonReference ^type.aggregation = #bundled
 * activity.detail.goal ..0
 * activity.detail.status ^definition = "Shall be either unknown, entered-in-error, or the activity status of the intervention at the time of reporting"
 * activity.detail.statusReason ..0
@@ -79,6 +81,7 @@ Description: "Planned interventions for nursing and home care in Danish Municipa
 
 
 Alias: $KLTerminology = http://kl.dk/fhir/common/caresocial/CodeSystem/FSIII
+Alias: $LocalInterventions = http://gateway.kl.dk/1.0/CodeSystem/LocallyDefinedInterventions
 
 Instance: PersonligHygiejne
 InstanceOf: KLGatewayCarePlannedIntervention
@@ -88,6 +91,7 @@ Description: "Planned intervention doing personal hygiene according to FSIII on 
 * subject = Reference(TestPerson)
 * period.start = 2020-08-14
 * activity.detail.code.coding[level2] = $KLTerminology#H1.1
+* activity.detail.code.coding[level3] = $LocalInterventions#H1.1.1 "Speciel personlig pleje"
 * activity.detail.status = #in-progress
 
 Instance: Dialyse

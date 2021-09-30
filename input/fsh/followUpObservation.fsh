@@ -13,6 +13,7 @@ Description: "Structured result or outcome of a follow up."
 * code.coding 1..1
 * code.coding = $SnomedCT#712744002
 * subject only Reference(klgateway-care-citizen)
+* subject ^type.aggregation = #bundled
 * focus 1..
 * focus only Reference(KLGatewayCareCondition or KLGatewayCarePlannedIntervention) 
 * encounter 0..0
